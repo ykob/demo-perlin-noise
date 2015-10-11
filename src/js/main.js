@@ -3,6 +3,7 @@ var Vector2 = require('./vector2');
 var Force = require('./force');
 var debounce = require('./debounce');
 var Mover = require('./mover');
+var Perlin = require('../../node_modules/perlin-noise');
 
 var body_width  = document.body.clientWidth * 2;
 var body_height = document.body.clientHeight * 2;
